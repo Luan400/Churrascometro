@@ -1,0 +1,52 @@
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        background-image: url(/image/5762973ef3e83b5e77e3548ff5921a1c.jpg);
+    }
+    
+    #teste {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #container {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 300px;
+        background-color: rgba(117, 110, 110, 0.877);
+        padding: 10px;
+        color: rgb(250, 250, 250);
+    }
+    
+    input {
+        display: block;
+        width: 90%;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(117, 110, 110, 0.877);
+        border: 0.9px solid black;
+    }
+    
+    img {
+        max-width: 300px;
+        max-height: 200px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+     ::placeholder {
+        color: rgb(255, 255, 255);
+    }
+    
+    button {
+        border-radius: 10px;
+    }
